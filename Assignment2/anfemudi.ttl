@@ -1,0 +1,15 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix task: <http://task2a.org/> .
+
+
+task:Class01 task:includes task:Sensor029;
+	task:includes task:Computer101 .
+
+task:Sensor029 task:hasMeasurement task:Measurement8401 .
+
+task:Measurement8401 task:hasTemperature 29 ; 
+	task:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+                   
+task:Computer101 task:hasOwner task:User10A .
+
+task:User10A task:hasName "Pedro" .

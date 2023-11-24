@@ -1,0 +1,68 @@
+{
+	"@context": {
+		"task2": "http://www.task2.org/task2/",
+		"person": "task2:person",
+		"fullName": "task2:fullName",
+		"homeTown": "task2:homeTown",
+		"age": "task2:age",
+		"almaMater": "task2:almaMater",
+		"parents": "task2:parents",
+		"subjects": "task2:subjects",
+		"subjectName": "task2:subjects",
+		"teachers": "task2:subjects",
+		"description": "task2:description"
+	},
+	"@id": "task2:Anfemudi",
+	"@type": "person",
+	"fullName": "Andres Felipe Munoz Diaz",
+	"hometown": "Cali, Colombia",
+	"age": 29,
+	"almaMater": "Pontificia Universidad Javeriana",
+	"parents": ["Heidy Diaz", "Juan Antonio Munoz"],
+	"subjects": [
+
+		{
+			"subjectName": "Data Processes",
+			"teachers": ["Ernestina Menasalvas,", "Alejandro Rodriguez","Antonio Díaz Honrrubia","Lucia Prieto"],
+			"description": "This course introduces fundamental tools and technologies necessary to transform raw data into information"
+		},
+
+		{
+			"subjectName": "Data Visualization",
+			"teachers": "Pablo Toharia",
+			"description": "This course will allow the student to gain the fundamentals for the visualization of all kinds of information"
+		},
+
+		{
+			"subjectName": "Statistical Data Analysis",
+			"teachers": "Ms. Arminda Moreno Díaz",
+			"description": "The course is intended to be a non-exhaustive survey of techinques to convert multivariate data into useful information so that good decisions can be made"
+		},
+
+		{
+			"subjectName": "Intelligent systems",
+			"teachers": "Martin Molina",
+			"description": "Use AI methods for building intelligent systems  and Describe AI applications using an integrated system view "
+		},
+
+		{
+			"subjectName": "Open Data and Knowledge Graphs",
+			"teachers": ["Oscar Corcho Garcia", "Raul Garcia Castro","Daniel Garijo"],
+			"description": "During this course you will learn about the main foundations for Knowledge Graphs, including the W3C recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies."
+		},
+		{
+			"subjectName": "Cloud Computing And Big Data Ecosystems",
+			"teachers": "Do not remember the name of the teachers",
+			"description": "This course presents traditional data management systems and architectures for scalable distributed systems and data management systems: bigtable, data streaming, persistent queues"
+		},
+		
+		{
+			"subjectName": "Machine Learning",
+			"teachers": ["Pedro Larranaga", "Concha Bielza "],
+			"description": "This course presents several methods to solve classification problems, both supervised and unsupervised, methods to find probabilistic relationships between system variables and models of spatial statistics."
+		},
+
+	]
+
+
+}
