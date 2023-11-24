@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "task2": "http://task.02/",
+  },
+  "@graph": [
+    {
+      "@id": "task2:Class01",
+      "task2:includes": [
+        {
+          "@id": "task2:Sensor029"
+        },
+        {
+          "@id": "task2:Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "task2:Sensor029",
+      "task2:hasMeasurement": {
+        "@id": "task2:Measurement8401"
+      }
+    },
+    {
+      "@id": "task2:Computer101",
+      "task2:hasOwner": {
+        "@id": "task2:User10A"
+      }
+    },
+    {
+      "@id": "task2:Measurement8401",
+      "task2:hasTemperature": {
+        "@type": "xsd:integer",
+        "@value": "29"
+      },
+      "task2:atTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2010-06-12T12:00:12"
+      }
+    },
+    {
+      "@id": "task2:User10A",
+      "task2:hasName": "Pedro"
+    }
+  ]
+}
